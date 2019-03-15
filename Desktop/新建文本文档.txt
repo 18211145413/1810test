@@ -1,0 +1,25 @@
+<font style="font-size:2vw;">个人信息</font>
+			<div style="background-color:yellow;widht:100%;height:50%;">
+			
+				<font style="font-size:2vw;float:left;margin-left:10%;margin-top:2%;">姓名:</font>
+				&nbsp;&nbsp;&nbsp;<div style="float:left;margin-left:10%;margin-top:2%;"><font style="font-size:25px;">${stu.stuname}</font></div>
+			
+				<font style="font-size:2vw;float:left;margin-left:10%;margin-top:2%;">性别:</font>
+				&nbsp;&nbsp;&nbsp;<div style="float:left;margin-left:v;margin-top:2%;"><font style="font-size:25px;">${stu.stusex}</font></div>
+			
+				<font style="font-size:2vw;float:left;margin-left:10%;margin-top:2%;">年龄:</font>
+				&nbsp;&nbsp;&nbsp;<div style="float:left;margin-left:10%;margin-top:2%;"><font style="font-size:25px;">${stu.stuage}</font></div>
+			</div>
+			
+			<div style="background-color:yellow;widht:100%;height:50%;">
+			
+				<font style="font-size:25px;float:left;margin-left:200px;margin-top:10px;">身份证号码</font>
+				&nbsp;&nbsp;&nbsp;<div style="float:left;margin-left:30px;margin-top:10px;"><font style="font-size:25px;">${stu.cardid}</font></div>
+			
+				<font style="font-size:25px;float:left;margin-left:170px;margin-top:10px;">联系电话:</font>
+				&nbsp;&nbsp;&nbsp;<div style="float:left;margin-left:30px;margin-top:10px;"><font style="font-size:25px;">${stu.mobilenum}</font></div>
+			
+				<font style="font-size:25px;float:left;margin-left:170px;margin-top:10px;">积分:</font>
+				&nbsp;&nbsp;&nbsp;<div style="float:left;margin-left:30px;margin-top:10px;"><font style="font-size:25px;">${stu.integral}</font></div>
+			
+			</div>
